@@ -1,0 +1,26 @@
+.list_item{
+  display: flex;
+  justify-content: space-between;
+
+  .todo_item{
+    display: flex;
+    align-items: center;
+
+    .todo_tag{
+      margin: 10px 20px;
+      white-space: normal !important;
+      max-width: 380px;
+
+      word-break: break-all;
+    }
+
+  }
+}
+
+.remove_todo_btn {
+  //border-radius: 2px;
+  //width: 30px;
+  //display: flex;
+  //align-items: center;
+  //justify-content: center;
+}
